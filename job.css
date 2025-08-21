@@ -591,3 +591,46 @@
     gap: 10px;
   }
 }
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+/* Navbar links */
+.navbar ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar links style */
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+/* Register Now button (same as Search button) */
+.register-btn {
+  background: #b3ff00; /* neon green */
+  border: none;
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0px 0px 15px rgba(179, 255, 0, 0.7);
+  color: black;
+}
+
+.register-btn:hover {
+  background: #a3e600;
+  box-shadow: 0px 0px 25px rgba(179, 255, 0, 1);
+}
+
